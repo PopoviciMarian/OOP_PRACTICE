@@ -9,6 +9,8 @@ struct Punct{
 class Rectangle{
 public:
 	Punct p[4];
+	Punct* begin() { return &p[0]; };
+	Punct* end() { return &p[4]; };
 	Rectangle(int a, int b, int c, int d) {
 		if (a < c && b < d) {
 			p[0].x = a;

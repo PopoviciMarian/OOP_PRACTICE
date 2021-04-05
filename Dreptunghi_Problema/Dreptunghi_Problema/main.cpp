@@ -9,11 +9,11 @@ int main(){
     Rectangle r2 = { 15, 50, 25, 15 };
     
     cout << "R1 = ";
-    for (auto p : r1.p)
+    for (auto p : r1)
         cout << "Punct(" << p.x << ", " << p.y << ") ";
     cout << endl;
     
-    for (auto p : r2.p)
+    for (auto p : r2)
         cout << "Punct(" << p.x << ", " << p.y << ") ";
     cout << endl;
    
